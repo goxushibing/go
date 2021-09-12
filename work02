@@ -11,6 +11,12 @@ import (
 
 func main() {
 	res := service()
+	//具体业务判断
+	if(errors.Is(res, data not found)) {
+	
+	} else {
+	
+	}
 }
 func dao() error  {
 	return errors.Wrap(sql.ErrNoRows,"data not found")
